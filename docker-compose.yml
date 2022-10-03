@@ -1,0 +1,30 @@
+version: '3.4'
+
+services:
+  tvmaze.api:
+    image: ${DOCKER_REGISTRY-}tvmaze
+    build:
+      context: .
+      dockerfile: Tvmaze.Api/Dockerfile
+
+  tvmaze.scraper:
+    image: ${DOCKER_REGISTRY-}tvmaze
+    build:
+      context: .
+      dockerfile: Tvmaze.Scraper/Dockerfile
+
+  tvmze.postgres:
+    container_name: postgres_container
+    image: postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: mysecretpassword
+      PGDATA: /data/postgres
+    volumes:
+      - postgres:/data/postgres
+    ports:
+      - "5432:5432"
+    restart: unless-stopped
+
+volumes:
+  postgres:

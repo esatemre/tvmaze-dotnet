@@ -1,0 +1,48 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1703.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tvmaze.Api", "Tvmaze.Api\Tvmaze.Api.csproj", "{FAB358EF-C7A8-45DE-9CD2-68DFDD805BB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tvmaze.Scraper", "Tvmaze.Scraper\Tvmaze.Scraper.csproj", "{DEE7EB3A-D1D0-493C-BBE0-AEC03C5D42E9}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{0408C750-F9C1-48F9-AF05-D4B62488184B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tvmaze.Data", "Tvmaze.Data\Tvmaze.Data.csproj", "{4E76C516-9DCE-488D-835D-7CAC290BDFD1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAB358EF-C7A8-45DE-9CD2-68DFDD805BB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAB358EF-C7A8-45DE-9CD2-68DFDD805BB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAB358EF-C7A8-45DE-9CD2-68DFDD805BB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAB358EF-C7A8-45DE-9CD2-68DFDD805BB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEE7EB3A-D1D0-493C-BBE0-AEC03C5D42E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEE7EB3A-D1D0-493C-BBE0-AEC03C5D42E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEE7EB3A-D1D0-493C-BBE0-AEC03C5D42E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEE7EB3A-D1D0-493C-BBE0-AEC03C5D42E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0408C750-F9C1-48F9-AF05-D4B62488184B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0408C750-F9C1-48F9-AF05-D4B62488184B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0408C750-F9C1-48F9-AF05-D4B62488184B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0408C750-F9C1-48F9-AF05-D4B62488184B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E76C516-9DCE-488D-835D-7CAC290BDFD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E76C516-9DCE-488D-835D-7CAC290BDFD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E76C516-9DCE-488D-835D-7CAC290BDFD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E76C516-9DCE-488D-835D-7CAC290BDFD1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {061633CE-A8B2-4411-9247-55C63E961899}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
+	EndGlobalSection
+EndGlobal

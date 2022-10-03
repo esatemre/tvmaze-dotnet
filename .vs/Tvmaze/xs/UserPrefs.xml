@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{0408C750-F9C1-48F9-AF05-D4B62488184B}|Default">
+  <MonoDevelop.Ide.ItemProperties.Tvmaze.Api PreferredExecutionTarget="/Applications/Safari.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Tvmaze.Scraper/TvMazeClient.cs">
+    <Files>
+      <File FileName="Tvmaze.Api/Program.cs" Line="12" Column="44" />
+      <File FileName="Tvmaze.Data/DataContext.cs" Line="1" Column="1" />
+      <File FileName="Tvmaze.Api/appsettings.json" Line="1" Column="1" />
+      <File FileName="Tvmaze.Api/Dockerfile" Line="1" Column="1" />
+      <File FileName="Tvmaze.Scraper/TvMazeClient.cs" Line="74" Column="1" />
+      <File FileName="Tvmaze.Scraper/Program.cs" Line="50" Column="42" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Tvmaze" expanded="True">
+            <Node name="docker-compose" expanded="True" selected="True" />
+            <Node name="Tvmaze.Api" expanded="True" />
+            <Node name="Tvmaze.Data" expanded="True" />
+            <Node name="Tvmaze.Scraper" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <Debugger.DebugSourceFolders />
+  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>
